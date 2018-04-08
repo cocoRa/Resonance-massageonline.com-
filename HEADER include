@@ -1,7 +1,4 @@
 <html>
-<head>
-	<title></title>
-</head>
 <body><!-- Facebook Pixel Code --><script>
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -25,25 +22,21 @@
             }(document, 'script', 'facebook-jssdk'));
         </script>
 
-<div class="row page-header">
-<div align="center" class="col-md-4"><a href="index.html"><img alt="Resonance Massage and Bodywork" class="img-responsive img-thumbnail" src="http://www.resonancemassageonline.com/images/MainLogo-400x150.png" /> </a>
-
+<div class="row">
+<div class="col-md-1"></div>
+<div class="col-md-4">
+<a href="index.html"><img alt="Resonance Massage and Bodywork" class="img-fluid img-thumbnail" src="http://www.resonancemassageonline.com/images/MainLogo-400x150.png" /> </a>
 <address class="address">547 W. Diversey Pkwy&nbsp;&nbsp;Chicago, IL 60614</address>
-<!--// Holiday Light Display (above eGift banner image)
-<img src="http://www.resonancemassageonline.com/images/xmas-lights.gif" class="img-responsive" width="415" />
-          // --></div>
-<!--// seasonal promo banner here: 
-
-<div align="center" class="col-sm-2" id="promo-notice">
-<h1 class="promo-notice">Save 10%</h1>
-
-<p class="promo-notice-sub">On all Gift purchases with promo-code: SHOPSMALL this Fri Nov 24th thru Mon Nov 27th</p>
 </div>
-//-->
 
-<div align="center" class="col-md-4" id="gift-card-lg"><a href="https://www.thegiftcardcafe.com/cart/index.php?storeID=11047" target="_blank"><img alt="Send an Instant eGift Certificate" class="img-responsive img-thumbnail" src="http://www.resonancemassageonline.com/images/GiftBanner-400x150.jpg" /> </a></div>
+<div class="col-md-4" id="gift-card-lg"><a href="https://www.thegiftcardcafe.com/cart/index.php?storeID=11047" target="_blank"><img alt="Send an Instant eGift Certificate" class=".img-fluid img-thumbnail" src="http://www.resonancemassageonline.com/images/GiftBanner-400x150.jpg" /> </a>
+<br><br>
+<!--// Holiday Light Display (below eGift banner image)
+       <img src="http://www.resonancemassageonline.com/images/xmas-lights.gif" class="img-fluid" width="415" />
+// -->     
+</div>
 
-<div align="left" class="col-md-2" id="business-partners"><img alt="We accept Spa Finder Gift Certificates" height="45px" src="http://www.resonancemassageonline.com/images/SpaFinder.jpg" title="Spafinder Wellness 365 Gift Certificates Accepted" /><img alt="We accept Spa Week Gift Certificates" height="45px" src="http://www.resonancemassageonline.com/images/SpaWeek.jpg" title="We accept Spa Week Gift Certificates" /> <a href="http://www.facebook.com/pages/Chicago-IL/Resonance-Massage/286279458908"> <img alt="Find us on Facebook" border="0" src="http://www.resonancemassageonline.com/images/find-us-on-facebook-100x26.png" /> </a>
+<div class="col-md-3" id="business-partners" align="center"><img alt="We Accept Spa Finder Gift Certificates!" height="45px" src="http://www.resonancemassageonline.com/images/SpaFinder.jpg" title="Spafinder Wellness 365 Gift Certificates are Accepted!" /><img alt="We accept Spa Week Gift Certificates" height="45px" src="http://www.resonancemassageonline.com/images/SpaWeek.jpg" title="We accept Spa Week Gift Certificates!" /> <a href="http://www.facebook.com/pages/Chicago-IL/Resonance-Massage/286279458908"> <img alt="Find us on Facebook" border="0" src="http://www.resonancemassageonline.com/images/find-us-on-facebook-100x26.png" /> </a>
 
 <div class="fb-like" data-action="like" data-href="https://www.facebook.com/ResonanceMassage/" data-layout="standard" data-share="false" data-show-faces="false" data-size="small" data-width="90">&nbsp;</div>
 </div>
