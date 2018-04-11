@@ -17,7 +17,7 @@ body {background-color: #ededde;
 .address { border-radius: 5px;
           background-color: #fff;
           color: #333;
-          margin-top: 4px;
+          margin-top: 3px;
           padding: 3px;
           font-style: normal;
           font-size: .8rem;
@@ -25,62 +25,17 @@ body {background-color: #ededde;
           text-align: center;
           max-width: 408px;
           height: 24px;}
+a:link, a:visited {
+        color: #82bf55;
+}
 
-
+a:hover, a:active, a:link#follow {
+    color: #333;
+    text-decoration: underline;
+}          
 
 .card {background-color: rgba(238, 231, 223,.6);
             border: 1px solid #ddd; border-radius: 5px;}
-
-#footer {
-       font-size: .75rem;
-       margin-top: 30px;
-       text-align: center;
-}
-
-.emphasis {font-weight: bold;}
-
-.quote  {font-style: italic;
-  font-size: 1.1rem;}
-
-/*  h1.page-title  {font-style: italic;}
-
-div#promo-notice {
-                border: 1px solid red;
-                border-radius: 5px;
-                margin:;
-                padding: 0px;
-                max-width: 220px;}
-
-h1.promo-notice {font-weight: bolder;
-                background-color: red;
-                color: white;
-                padding: 0px;
-                margin: auto;
-                text-align: center;}
-
-.promo-notice-sub {font-weight: bold;
-                text-align: center;
-                color: black;
-                padding: 4px;
-                background-color: white;
-                margin: auto;
-                border-radius: 5px;}
-
-.media  {position: relative;
-         left: 30px;
-         margin-bottom: 30px;}  
-         
-div#gift-banner img {
-                padding-left: 3px;
-                margin: auto;}
-
-div#business-partners img {
-                border-radius: 5px;
-                padding-right: 3px;                      
-                margin: auto;}         
-                
-.card-header, .card-text, .card-block, .card-body  {background-color: rgba(238, 231, 223,.6); }                
-                */
 
 div#business-partners img {                
                 margin: 2px;
@@ -92,13 +47,6 @@ img.media-object {height: 175px;
 
 #map-container  {height: 350px;}
 
-
-/*  div#business-partners img {
-          margin-top:  5px;
-          margin-bottom: 5px;
-          margin-left: 3px;
-          min-height: 30px;}  */
-          
 </style>
 <!--  <link href="/css/ResonanceStyle_bs4.css" media="screen" rel="stylesheet" type="text/css" /> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -130,6 +78,7 @@ img.media-object {height: 175px;
       <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQ</a>
       </li>
+<!-- NAV DROPDOWN MENU FOR THERAPISTS ON OUR THERAPISTS PAGE ONLY :      
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="therapists.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Our Therapists
@@ -143,8 +92,10 @@ img.media-object {height: 175px;
           <a class="dropdown-item" href="therapists.html#gene">Gene S.</a>
               </div>
       </li></li>
-      
-      
+-->      
+     <li class="nav-item">
+        <a class="nav-link" href="therapists.html">Our Therapists</a>
+      </li>      
             <li class="nav-item">
         <a class="nav-link" href="pricing.html">Pricing</a>
       </li>
@@ -208,7 +159,7 @@ img.media-object {height: 175px;
 <br><br>
 </div>
 
-<div class="col-md-2 alert alert-warning text-left"><span class="align-middle">
+<div class="col-md-2 alert alert-warning text-right"><span class="align-middle">
   We will be <strong>closed today</strong>, Wed Feb 7th due to inclement weather...<br>
   Save <strong>10%</strong> on all <a href="gift.html">eGift Cards</a> with code <strong>"WINTERY"</strong>!
 </span></div>
@@ -222,21 +173,31 @@ img.media-object {height: 175px;
 <div class="col-md-3">
 <div class="card">
 <div class="card-body">
-<h4>Resonance Massage <small>is located in Chicago&#39;s popular Lakeview neighborhood.</p>
+<h5>Resonance Massage is located in Chicago&#39;s popular Lakeview neighborhood.</p>
 <p>Come enjoy a seated, table, or hot stone massage in a casual and tranquil environment.</p>
-<p class="text-left">No appointment is ever necessary.</p></small></h4>
+<p class="text-left">No appointment is ever necessary.</p></h5>
 </div>
 </div>
 </div>
 </div>
+
 <div align="center">
-<h1>
-<a href="https://www.facebook.com/ResonanceMassage/" title="Facebook"><i class="fa fa-facebook-square" style="font-size:30px;color:#82bf55"></i></a>&nbsp;
-<a href="https://www.instagram.com/resonance547/" title="Instagram"><i class="fa fa-instagram" style="font-size:30px;color:#82bf55"></i></a>&nbsp;
-<a href="https://twitter.com/resonance547" title="Twitter"><i class="fa fa-twitter" style="font-size:30px;color:#82bf55"></i></a>&nbsp; 
-<a href="https://www.yelp.com/biz/resonance-massage-and-bodywork-chicago" title="Yelp"><i class="fa fa-yelp" style="font-size:30px;color:#82bf55"></i></a>
-</h1>
+<h2>
+<a href="https://www.facebook.com/ResonanceMassage/" title="Facebook"><i class="fa fa-facebook-square" id="follow"></i></a>&nbsp;
+<a href="https://www.instagram.com/resonance547/" title="Instagram"><i class="fa fa-instagram" id="follow"></i></a>&nbsp;
+<a href="https://twitter.com/resonance547" title="Twitter"><i class="fa fa-twitter" id="follow"></i></a>&nbsp; 
+<a href="https://www.yelp.com/biz/resonance-massage-and-bodywork-chicago" title="Yelp"><i class="fa fa-yelp" id="follow"></i></a>
+</h2>
 </div>
-</main> <!--#include virtual="/includes/html/resonance_footer_include.html" --></div>
+</main> 
+
+<!-- do the footer include -->
+
+<div align="center">
+<p></p><h6><small>Copyright &copy; 2010 - 2018 Resonance Group, PC<br>
+Website by John Storm</small></h6></p>
+</div>    
+
+</div>
 <!--.container class --></body>
 </html>
