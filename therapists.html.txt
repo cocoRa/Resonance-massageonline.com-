@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resonance Massage: Our Therapists</title>
+	<meta content="Learn about our team of Licensed Massage Therapists." name="description" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="utf-8" /><script src="//code.jquery.com/jquery.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/ResonanceStyle.css" media="screen" rel="stylesheet" type="text/css" /><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+             ga('create', 'UA-80102602-1', 'auto');
+            ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div class="container-fluid"><!--// header and navbar for all pages //-->
+<header><!--#include virtual="/includes/html/resonance_header_include.html" -->
+<nav class="navbar navbar-default">
+<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+    <li><a href="index.html">Welcome</a></li>
+	<li><a href="visit.html">Your Visit</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li class="active"><a href="therapists.html">Our Therapists</a></li>
+	<li><a href="pricing.html">Pricing</a></li>
+	<li><a href="gift.html">eGift Cards</a></li>
+    <li><a href="news.html">News</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></nav>
+</header>
+<main>
+<h1 class="page-title">Our Therapists</h1>
+
+<div class="row">
+<div class="col-md-10 col-md-offset-1">
+<div class="panel panel-body info-panel">
+<p class="lead">Each Therapist in our team is required to complete extensive professional training in the anatomy and functions of the human body as well as basic massage modalities, and must adhere to a code of ethics. We employ only multi-skilled, fully credentialed Massage Therapists.</p>
+
+<p class="lead">Massage modalities in which each of our therapists are skilled in include: <em>Swedish, Relaxation, Deep Tissue, Neuromuscular Trigger Point Therapy, Hot Stone Massage, </em>and <em>Assisted Stretching</em>. Each of these modalities may be administered through modified gentle or firm pressure, applied with various massage &ldquo;strokes&rdquo; including: Compression, Kneading, Squeezing, Friction, and Tapotement (Percussion). Feel free to let your Massage Therapist know if you are uncomfortable with any of these techniques, and would rather they not use it during your session. You can read about each individual Therapist&rsquo;s specific approach to massage, and any distinctive modalities and styles they may practice, below.</p>
+</div>
+</div>
+</div>
+<br />
+<div class="media" id="abigail">
+<div class="media-left"><img alt="Abigail G." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/abigail.jpg" /></div>
+
+<div class="media-body">
+    <h3 class="media-heading">Abigail G.</h3>
+    <p class="quote">&ldquo;A good massage should be therapeutic and relaxing, leaving the client feeling refreshed both mentally and physically.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>The Chicago School of Massage Therapy, 1999</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Zen Shiatsu Stretches</dd>
+        <dd>Cranial Sacral Therapy</dd>
+        <dd>Hot Stone Massage</dd>
+	 <dt>Secret ingredient:</dt>
+        <dd>Compassion</dd>
+    </dl>
+</div>
+</div>
+
+<div class="media" id="eric">
+<div class="media-left"><img alt="Eric L." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/eric.jpg" /></div>
+
+<div class="media-body">
+<h3 class="media-heading">Eric L.</h3>
+
+<p class="quote">&ldquo;Massage is a powerful tool to satisfy the basic, very important human need for comfort. Once the physical aspect of comfort is satisfied through massage, emotional and spiritual relief easily follows.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>Illinois School of Massage Therapy, 1995</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Qigong Certification</dd>
+            <dd>Energy Work</dd>
+	<dd>Hot Stone Massage</dd>
+	<dt>People who inspire me:</dt>
+            <dd>Madonna</dd>
+</dl>
+</div>
+</div>
+
+<div class="media" id="richard">
+<div class="media-left"><img alt="Richard O." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/richard.jpg" /></div>
+
+<div class="media-body">
+<h3 class="media-heading">Richard O.</h3>
+
+<p class="quote">&ldquo;I love having the ability to make a positive impact on the lives of my clients and open new worlds for them.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>The Chicago School of Massage Therapy, 2008</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Yamuna Body Rolling</dd>
+        <dd>Hot Stone Massage</dd>
+	<dt>Interests:</dt>
+        <dd>College Football and Basketball, Soccer.</dd>
+</dl>
+</div>
+</div>
+
+<div class="media" id="corinne">
+<div class="media-left"><img alt="Corinne R." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/corinne.jpg" /></div>
+
+<div class="media-body">
+<h3 class="media-heading">Corinne R.</h3>
+
+<p class="quote">&ldquo;Massage improves both physical and mental well-being by inducing relaxation through careful manipulation of the body&#39;s musculature.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>Cortiva Institute of Massage Therapy, 2012</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Manual Lymphatic Drainage</dd>
+         <dd>Hot Stone Massage</dd>
+	<dt>Favorite Quote:</dt>
+        <dd>&ldquo;Winners do what losers don&#39;t want to do.&rdquo; &ndash; Gary Busey</dd>
+</dl>
+</div>
+</div>
+
+<div class="media" id="erin">
+<div class="media-left"><img alt="Erin S." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/erin.jpg" /></div>
+
+<div class="media-body">
+<h3 class="media-heading">Erin S.</h3>
+
+<p class="quote">&ldquo;A soothing massage benefits the mind, body and soul, and can help lead a client to perceive a fresh outlook on life.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>The Soma Institute of Massage Therapy, 2005</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Pregnancy Massage</dd>
+        <dd>Zen Shiatsu Stretches</dd>
+	    <dd>Hot Stone Massage</dd>
+	<dt>Hobbies:</dt>
+        <dd>Cooking, writing, being crafty, coin collecting, and traveling.</dd>
+</dl>
+</div>
+</div>
+
+<div class="media" id="gene">
+<div class="media-left"><img alt="Gene S." class="media-object img-circle" src="http://www.resonancemassageonline.com/images/gjs.jpg" /></div>
+
+<div class="media-body">
+<h3 class="media-heading">Gene S.</h3>
+
+<p class="quote">&ldquo;Massage can make a wonderful addition to anyone&rsquo;s wellness program, and has a profound healing impact; boosting immunity, reducing anxiety, relieving muscular tension, improving circulation, and increasing body awareness.&rdquo;</p>
+
+<dl>
+	<dt>Training:</dt>
+        <dd>The Chicago Institute of Massage Therapy, 1992</dd>
+	<dt>Additional Skills:</dt>
+        <dd>Pregnancy Massage</dd>
+        <dd>Zen Shiatsu Stretches</dd>
+    	<dd>Hot Stone Massage</dd>
+	<dt>Some people who inspire me:</dt>
+            <dd>Coretta Scott King, President Jimmy Carter, Judy Collins, Ben Cohen</dd>
+</dl>
+</div>
+</div>
+</main> <!--#include virtual="/includes/html/resonance_footer_include.html" --></div>
+<!-- /.container-fluid --></body>
+</html>

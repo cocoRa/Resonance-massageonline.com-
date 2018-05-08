@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resonance Massage: Your Visit</title>
+    <meta content="What to know and expect from a Massage at Resonance" name="description" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="utf-8" /><script src="//code.jquery.com/jquery.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/ResonanceStyle.css" media="screen" rel="stylesheet" type="text/css" /><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+             ga('create', 'UA-80102602-1', 'auto');
+            ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div class="container-fluid"><!--// header and navbar for all pages //-->
+<header><!--#include virtual="/includes/html/resonance_header_include.html" -->
+<nav class="navbar navbar-default">
+<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+</button></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="index.html">Welcome</a></li>
+	<li class="active"><a href="visit.html">Your Visit</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="therapists.html">Our Therapists</a></li>
+	<li><a href="pricing.html">Pricing</a></li>
+	<li><a href="gift.html">eGift Cards</a></li>
+    <li><a href="news.html">News</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></nav>
+</header>
+<main>
+<h1 class="page-title">Your Visit</h1>
+
+<div class="row">
+<div class="col-md-6  col-md-offset-1">
+<div class="panel panel-body info-panel">
+<p class="lead text-left">At Resonance we offer chair and table massages; both of which are performed while you are fully clothed in a common treatment room. We believe this style of clinic offers a safe and comforting place for our clients to relax communally, stimulating an atmosphere of shared &ldquo;healing energy&rdquo;. This form of collective stillness is a rare and precious thing in our rushed society. We strive to offer top quality massage at an affordable price right when you need it - without the hassle of booking an appointment in advance.</p>
+
+<h4>Your First Visit</h4>
+
+<p class="lead text-left">On your first visit you will be asked to fill out our simple intake form, giving us an idea of indications/contraindications you may have for massage. We guarantee your privacy and do not share your information with any other party.</p>
+
+<h4>Our Massage Chairs</h4>
+
+<p class="lead text-left">Our EarthLite Avila&reg; massage chairs are ergonomically designed to allow for topmost comfort and stability, and adjust in numerous ways: your therapist will raise/lower/tilt any of the chair&rsquo;s many aspects to find the perfect fit for you before beginning your massage. If you&rsquo;ve ever experienced a seated massage in a lesser chair at a street festival or on-site at your workplace, it might not have left a very good impression. You can be sure that any negative chair massage preconceptions will be swept away after trying ours.</p>
+<!-- chair and table image -->
+
+<h4>Chair or Table?</h4>
+
+<p class="lead text-left">When deciding whether you would like to work on the chair or table, you may want to consider what areas you need your massage to focus on. The chair can be very effective for treatment focusing on the upper body, and provides excellent leverage for working the shoulders and arms. The table is best if you are looking for bodywork to primarily address the low back, legs and/or feet. You can view our price menu <a href="pricing.html">here</a></p>
+</div>
+</div>
+
+<div class="col-md-5"><img alt="Table Massage" class="img-responsive center-block img-rounded" src="http://www.resonancemassageonline.com/images/2016-06table.jpg" /><br />
+<img alt="Earthlite Avila Massage Chair" class="img-responsive center-block" img-rounded src="http://www.resonancemassageonline.com/images/2016-06chair.jpg" /></div>
+</div>
+</main> 
+<!--#include virtual="/includes/html/resonance_footer_include.html" -->
+</div>
+<!--.container class -->
+</body>
+</html>

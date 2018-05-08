@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resonance Massage: Pricing</title>
+	<meta content="Massage times and cost range from a 10-minute chair massage ($15) to a 1-hour table massage ($75), and anything in-between in 5 minute increments." name="description" />
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="Resonance Site" name="Resonance: Your Visit" />
+	<meta charset="utf-8" /><script src="//code.jquery.com/jquery.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/css/ResonanceStyle.css" media="screen" rel="stylesheet" type="text/css" /><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+             ga('create', 'UA-80102602-1', 'auto');
+            ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div class="container-fluid"><!--// header and navbar for all pages //-->
+<header><!--#include virtual="/includes/html/resonance_header_include.html" -->
+<nav class="navbar navbar-default">
+<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+	<li><a href="index.html">Welcome</a></li>
+	<li><a href="visit.html">Your Visit</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="therapists.html">Our Therapists</a></li>
+	<li class="active"><a href="pricing.html">Pricing</a></li>
+	<li><a href="gift.html">eGift Cards</a></li>
+	<li><a href="news.html">News</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></nav>
+</header>
+<main> <!--//NOTE: Any changes to pricing must also be reflected in the meta description tag value above//-->
+<h1 class="page-title">Pricing</h1>
+
+<div class="row">
+<div class="col-md-10 col-md-offset-1 panel panel-body info-panel">
+<h4>Single Session</h4>
+
+<p class="lead">Single session massages range from 10 minutes to 1 hour. You may extend your massage beyond 1 hour if no other clients are waiting. You can always start with a shorter massage and extend it if you&rsquo;d like. Any chair massage can be upgraded to a table massage for an additional $5. You may want to consider purchasing a block of minutes (Massage Package), or enrolling in our no-commitment monthly Membership for more frequent massages.</p>
+
+<h4>Massage Packages</h4>
+
+<p class="lead">Packages come in a number of minutes that you break down as you see fit. For example, opting for a 90 minute package can grant you a 20 minute chair session, 45 minutes on the table, and another 20 to spare. Package minutes can be shared with friends. or family, and never expire.</p>
+
+<h4>Rub Club Membership</h4>
+
+<p class="lead">For guests who are averaging at least 60 minutes of massage a month, Membership is a great option. Choose your level for a one time $15 start-up fee, and get new minutes (and a new Members&rsquo; Special) on the 1st of every month. Members earn reward points every time they get a massage, and can redeem them for free minutes. Memberships can be frozen at no charge, and there are no cancellation fees. If you don&rsquo;t use all of your minutes in a month, they roll over to the next month, and as with Packages, can be shared with friends or family and never expire.</p>
+
+<h4>Membership Packages</h4>
+
+<p class="lead">If you find that you&rsquo;ve run out of Membership minutes (but haven&rsquo;t run out of reasons to get a massage) you may want to purchase a Membership Package. This package option is offered exclusively to our Rub Club Members, and is offered at 10% off the price of a regular package.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-2 col-md-offset-1">
+<h3>Price Menu</h3>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-3 col-md-offset-1">
+<h4>Single Session</h4>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<td style="width:150px">10 Minutes</td>
+			<td>$15</td>
+		</tr>
+		<tr>
+			<td>15 Minutes</td>
+			<td>$21</td>
+		</tr>
+		<tr>
+			<td>20 Minutes</td>
+			<td>$27</td>
+		</tr>
+		<tr>
+			<td>25 Minutes</td>
+			<td>$33</td>
+		</tr>
+		<tr>
+			<td>30 Minutes</td>
+			<td>$39</td>
+		</tr>
+		<tr>
+			<td>35 Minutes</td>
+			<td>$45</td>
+		</tr>
+		<tr>
+			<td>40 Minutes</td>
+			<td>$51</td>
+		</tr>
+		<tr>
+			<td>45 Minutes</td>
+			<td>$57</td>
+		</tr>
+		<tr>
+			<td>50 Minutes*</td>
+			<td>$67</td>
+		</tr>
+		<tr>
+			<td>55 Minutes*</td>
+			<td>$72</td>
+		</tr>
+		<tr>
+			<td>60 Minutes*</td>
+			<td>$77<br />
+			(includes $5 table upgrade)</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+			<h6>*For sessions longer than 45 minutes, we recommend massage be done on the table.</h6>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div class="col-md-5 col-md-offset-1">
+<h4>Upgrades</h4>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<td style="width:150px">Table</td>
+			<td>$5 (or 5 minutes from a Package or Membership)</td>
+		</tr>
+		<tr>
+			<td>Aromatherapy</td>
+			<td>$1 (or 1 minute from a Package or Membership)</td>
+		</tr>
+		<tr>
+			<td>Hot Stones</td>
+			<td>$7 (or 7 minutes from a Package or Membership)</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Packages</h4>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<td style="width:150px">60 Minutes</td>
+			<td>$77</td>
+		</tr>
+		<tr>
+			<td>90 Minutes</td>
+			<td>$113</td>
+		</tr>
+		<tr>
+			<td>120 Minutes</td>
+			<td>$143</td>
+		</tr>
+		<tr>
+			<td>240 Minutes</td>
+			<td>$270</td>
+		</tr>
+		<tr>
+			<td>Superpak<br />
+			1205 Minutes</td>
+			<td>$999</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Membership</h4>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<td style="width:150px">Bronze: 60 Mins/Month</td>
+			<td>$61.88</td>
+		</tr>
+		<tr>
+			<td>Silver: 90 Mins/Month</td>
+			<td>$86.88</td>
+		</tr>
+		<tr>
+			<td>Gold: 120 Mins/Month</td>
+			<td>$106.88</td>
+		</tr>
+		<tr>
+			<td>Platinum: 180 Mins/Month</td>
+			<td>$149.88</td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Member Packages</h4>
+
+<table class="table">
+	<tbody>
+		<tr>
+			<td style="width:150px">60 Minutes</td>
+			<td>$69</td>
+		</tr>
+		<tr>
+			<td>90 Minutes</td>
+			<td>$102</td>
+		</tr>
+		<tr>
+			<td>120 Minutes</td>
+			<td>$129</td>
+		</tr>
+		<tr>
+			<td>240 Minutes</td>
+			<td>$243</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+</main> <!--#include virtual="/includes/html/resonance_footer_include.html" --></div>
+<!--.container class --></body>
+</html>
