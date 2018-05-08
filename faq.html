@@ -3,189 +3,239 @@
 <head>
     <title>Resonance Massage: FAQ</title>
     <meta name="description" content="Frequently Asked Questions regarding appointments, type of massage, gratuities, etc.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="Resonance Site" name="Resonance: Your Visit" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta charset="utf-8" />
-    <script src="//code.jquery.com/jquery.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/ResonanceStyle.css" media="screen" rel="stylesheet" type="text/css" />
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-             ga('create', 'UA-80102602-1', 'auto');
-            ga('send', 'pageview');
-    </script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <link href="/css/ResonanceStyle.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
-<div class="container-fluid"><!--// header and navbar for all pages //-->
-<header><!--#include virtual="/includes/html/resonance_header_include.html" -->
-<nav class="navbar navbar-default">
-<div class="navbar-header"><button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button></div>
-<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="container-fluid">
+<header>
 
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav">
-    <li><a href="index.html">Welcome</a></li>
-	<li><a href="visit.html">Your Visit</a></li>
-	<li class="active"><a href="faq.html">FAQ</a></li>
-	<li><a href="therapists.html">Our Therapists</a></li>
-	<li><a href="pricing.html">Pricing</a></li>
-	<li><a href="gift.html">eGift Cards</a></li>
-    <li><a href="news.html">News</a></li>
-	<li><a href="contact.html">Contact Us</a></li>
-</ul>
-</div>
-<!-- /.navbar-collapse --></nav>
+<!--#include virtual="/includes/html/resonance_header_include.html" -->
+
 </header>
 <main>
-  <h1 class="page-title">Frequently Asked Questions</h1>
-<div class="container">
-  <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is the 10 Minute Tune-Up?</a>
-        </h4>
-      </div>
-      <div id="collapse1" class="panel-collapse collapse">
-        <div class="panel-body lead">When visiting us for the first time (or if you happen to be in a hurry but could use a quick fix) our guests often ask for the "10 Minute Tune-up": our shortest session offered.  The session will focus on what you request (as with all of our massages) - be it a particularly sore spot that requires some deep work, or something more general and relaxing.</div>
-      </div>
+
+<div class="row">
+<div class="col-md-10 offset-md-1">
+
+<div class="card">
+  <div class="card-header">
+      <h1 class="page-title">Frequently Asked Questions</h1>
+  </div>
+  </div>
+
+ <div id="accordion">
+  <div class="card mt-2 mb-2">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="faqs">
+          What is the "10 Minute Tune-Up?
+        </button>
+      </h5>
+</div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        When visiting us for the first time (or if you happen to be in a hurry but could use a quick fix) our guests often ask for the "10 Minute Tune-up": our shortest session offered.  The session will focus on what you request (as with all of our massages) - be it a particularly sore spot that requires some deep work, or something more general and relaxing.
+        </div>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Why don’t you offer private rooms?</a>
-        </h4>
-      </div>
-      <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body lead">We choose to model our open treatment space after traditional Asian acupuncture clinics, in an effort to build a sense of community.  While in the clinic one can see that they are not alone with their conditions, and a strong sense of camaraderie and supportive atmosphere is often experienced.  Massage sessions in a community clinic lend a “healing charge” to the room, and make each individual treatment all the more effective.
-Additionally, unclothed massage may cause someone who has experienced trauma or abuse to feel vulnerable or emotionally discomforted and exposed, even when draped.  The ability to feel secure through fully-clothed massage increases treatment effectiveness, assisting in relaxation in order to receive important “healing touch” therapy.</div>
-      </div>
+  </div>
+  <div class="card mb-2">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Why don’t you offer private rooms?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Why doesn’t anyone answer the phone when I call?</a>
-        </h4>
-      </div>
-      <div id="collapse3" class="panel-collapse collapse">
-        <div class="panel-body lead">Because our reception and treatment areas share one common room, we keep our phone's ringer on silent (and ask that you do too!) for the comfort and relaxation of our clients.  If you would like to <a href="contact.html">contact us</a>, you may certainly leave a voice-mail (or E-mail) and we will reply promptly. </div>
-      </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        We choose to model our open treatment space after traditional Asian acupuncture clinics, in an effort to build a sense of community.  While in the clinic one can see that they are not alone with their conditions, and a strong sense of camaraderie and supportive atmosphere is often experienced.  Massage sessions in a community clinic lend a “healing charge” to the room, and make each individual treatment all the more effective.
+Additionally, unclothed massage may cause someone who has experienced trauma or abuse to feel vulnerable or emotionally discomforted and exposed, even when draped.  The ability to feel secure through fully-clothed massage increases treatment effectiveness, assisting in relaxation in order to receive important “healing touch” therapy.
+</div>
     </div>
-     <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Can I book an appointment?</a>
-        </h4>
-      </div>
-      <div id="collapse4" class="panel-collapse collapse">
-        <div class="panel-body lead">We feel that scheduling an appointment needlessly invites the opportunity for added stress.  Heaven forbid you are running late, need to re-schedule, or cancel your booking at the last minute for a fee.  This seems to be a faulty process to us, as it is our goal after all to help relieve you of such bothers.  We want to address your pain and fix your aches when you need it – not in a week!  
-Therefore, we only accept walk-in massages.</div>
-      </div>
+  </div>
+  <div class="card mb-2">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Why doesn’t anyone answer the phone when I call?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Can I request a certain therapist to work with?</a>
-        </h4>
-      </div>
-      <div id="collapse5" class="panel-collapse collapse">
-        <div class="panel-body lead">Of course!  If there happens to be a wait you may always put your name down on our sign in sheet to either return when the table/chair/specific therapist that you would like to be working with is available, or stay and enjoy some tea in our waiting area.</div>
-      </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Because our reception and treatment areas share one common room, we keep our phone's ringer on silent (and ask that you do too!) for the comfort and relaxation of our clients.  If you would like to <a href="contact.html">contact us</a>, you may certainly leave a voice-mail (or E-mail) and we will reply promptly. 
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Can I book an appointment?
+        </button>
+      </h5>
     </div>
-        <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Can I access the internet while I wait?</a>
-        </h4>
-      </div>
-      <div id="collapse6" class="panel-collapse collapse">
-        <div class="panel-body lead">Yes, we offer complimentary Wi-Fi access, as well as a free "charging station" if your phone/tablet (android or apple!) needs some power.</div>
-      </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        We feel that scheduling an appointment needlessly invites the opportunity for added stress.  Heaven forbid you are running late, need to re-schedule, or cancel your booking at the last minute for a fee.  This seems to be a faulty process to us, as it is our goal after all to help relieve you of such bothers.  We want to address your pain and fix your aches when you need it – not in a week!  
+Therefore, we only accept walk-in massages.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Can I request a certain therapist to work with?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Are gratuities included in the massage price?</a>
-        </h4>
-      </div>
-      <div id="collapse7" class="panel-collapse collapse">
-        <div class="panel-body lead">Gratuities are not included in single-session, package, or membership prices.  Gratuities are an appreciated gesture for a massage done well.  If you wish to tip your Therapist, the average rate is 15-20%. Gratuities are never expected, <em>always</em> appreciated.</em></div>
-      </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+        Of course!  If there happens to be a wait you may always put your name down on our sign in sheet to either return when the table/chair/specific therapist that you would like to be working with is available, or stay and enjoy some tea in our waiting area.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Can I access the internet while I wait?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">What is the difference between Packages and the Membership?</a>
-        </h4>
-      </div>
-      <div id="collapse8" class="panel-collapse collapse">
-        <div class="panel-body lead">Our Packages are a one-time purchase option to buy minutes in bulk at a lower price per minute, and to then use them in increments of your own choosing.  Packages do not expire, and can be shared with friends and family.  The Membership works in the same way, but is a no-commitment monthly plan (charged on the 1st of every month) at an even lower rate per minute than regular Packages.
-See our <a href="pricing.html">Pricing Page</a> for further details on Single Session, Package, Membership, and Membership Package options.</div>
-      </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+      <div class="card-body">
+        Yes, we offer complimentary Wi-Fi access, as well as a free "charging station" if your phone/tablet (android or apple!) needs some power.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingSeven">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          Are gratuities included in the massage price?
+        </button>
+      </h5>
     </div>
-     <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">What should I wear?</a>
-        </h4>
-      </div>
-      <div id="collapse9" class="panel-collapse collapse">
-        <div class="panel-body lead">Comfortable, loose, casual clothing is best if you are able to plan ahead of your visit.  Because we do encourage impromptu massage, we welcome you as you are - from gym clothes to office attire.  You may always bring a change of clothes if you wish.  You may prefer to remove any rings or necklaces before arriving so as to avoid losing any jewelry.  Blankets can be provided for extra warmth if needed.</div>
-      </div>
+    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+      <div class="card-body">
+        Gratuities are not included in single-session, package, or membership prices.  Gratuities are an appreciated gesture for a massage done well.  If you wish to tip your Therapist, the average rate is 15-20%. Gratuities are never expected, <em>always</em> appreciated.</em>
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingEight">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" style="white-space:normal; text-overflow: ellipsis;">
+          What is the difference between Packages and the Membership?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">Do you use any scented oils or lotions?</a>
-        </h4>
-      </div>
-      <div id="collapse10" class="panel-collapse collapse">
-        <div class="panel-body lead">We only use non-scented, hypoallergenic massage lotion (a minimally greasy variety that will not stain clothing) on exposed skin such as the hands, neck, or feet.  You may always request that your therapist not use lotion if you prefer none.</div>
-      </div>
+    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+      <div class="card-body">
+        Our Packages are a one-time purchase option to buy minutes in bulk at a lower price per minute, and to then use them in increments of your own choosing.  Packages do not expire, and can be shared with friends and family.  The Membership works in the same way, but is a no-commitment monthly plan (charged on the 1st of every month) at an even lower rate per minute than regular Packages.
+See our <a href="pricing.html">Pricing Page</a> for further details on Single Session, Package, Membership, and Membership Package options.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingNine">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+          What should I wear?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">What modalities of massage do your Therapists practice?</a>
-        </h4>
-      </div>
-      <div id="collapse12" class="panel-collapse collapse">
-        <div class="panel-body lead">All of our Licensed Massage Therapists have been trained in traditional Swedish massage, which in itself encompasses various techniques including “deep tissue”, “sports”, “relaxation”, “trigger point” (neuromuscular), and assisted stretches.  View our <a href="therapists.html">Therapist</a> page for any other unique modalities that each of our therapists specializes in.</div>
-      </div>
+    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+      <div class="card-body">
+        Comfortable, loose, casual clothing is best if you are able to plan ahead of your visit.  Because we do encourage impromptu massage, we welcome you as you are - from gym clothes to office attire.  You may always bring a change of clothes if you wish.  You may prefer to remove any rings or necklaces before arriving so as to avoid losing any jewelry.  Blankets can be provided for extra warmth if needed.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingTen">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+          Do you use any scented oils or lotions?
+        </button>
+      </h5>
     </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">Do you offer pregnancy massage?</a>
-        </h4>
-      </div>
-      <div id="collapse13" class="panel-collapse collapse">
-        <div class="panel-body lead">Yes! We can accommodate prenatal and postpartum women with a side-lying position on the table, or with a special bolster on the chair.  Please inform your therapist if you are pregnant before your massage; first-trimester prenatal massage should only be performed with your doctor's consent.</div>
-      </div>
+    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+      <div class="card-body">
+        We only use non-scented, hypoallergenic massage lotion (a minimally greasy variety that will not stain clothing) on exposed skin such as the hands, neck, or feet.  You may always request that your therapist not use lotion if you prefer none.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingEleven">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+          What modalities of massage do your Therapists practice?
+        </button>
+      </h5>
     </div>
-       <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">Can my child receive a massage?</a>
-        </h4>
-      </div>
-      <div id="collapse14" class="panel-collapse collapse">
-        <div class="panel-body lead">We welcome children ages 5 and up, with a parent’s presence and permission of course!  They may receive massage on the chair or table, though smaller children may be best accommodated on the massage table.  Keep in mind that kids may not want to sit still for longer than 30 Minutes, though shorter sessions for young ones can still be beneficial!</div>
-      </div>
+    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+      <div class="card-body">
+        All of our Licensed Massage Therapists have been trained in traditional Swedish massage, which in itself encompasses various techniques including “deep tissue”, “sports”, “relaxation”, “trigger point” (neuromuscular), and assisted stretches.  View our <a href="therapists.html">Therapist</a> page for any other unique modalities that each of our therapists specializes in.
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingTwelve">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+          Do you offer pregnancy massage?
+        </button>
+      </h5>
     </div>
-  </div> 
+    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
+      <div class="card-body">
+        Yes! We can accommodate prenatal and postpartum women with a side-lying position on the table, or with a special bolster on the chair.  Please inform your therapist if you are pregnant before your massage; first-trimester prenatal massage should only be performed with your doctor's consent.
+</div>
+</div>
+</div>
+</div>
+
+<div class="card mb-2">
+    <div class="card-header" id="headingThirteen">
+      <h5 class="mb-0" id="faqs">
+        <button class="btn btn-link collapsed" id="faqs" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+          Can my child receive a massage?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+      <div class="card-body">
+        We welcome children ages 5 and up, with a parent’s presence and permission of course!  They may receive massage on the chair or table, though smaller children may be best accommodated on the massage table.  Keep in mind that kids may not want to sit still for longer than 30 Minutes, though shorter sessions for young ones can still be beneficial!
+</div>
+</div>
+</div>
+</div>
 </div>
 </main>
-
 <!--#include virtual="/includes/html/resonance_footer_include.html" -->
 </div>
-<!--.container class --></body>
+<!--.container class -->
+</body>
 </html>
