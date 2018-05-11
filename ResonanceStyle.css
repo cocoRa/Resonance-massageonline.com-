@@ -38,17 +38,33 @@ a:hover, a:active, a:hover#follow  {
     border-radius: 15px;}
     
 .card-header, .card-body  {
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
 #business-partners img {                
     margin: 2px;
-    border-radius: 5px;}
-
+    border-radius: 5px;
+}
 
 #notices {
     margin-left: 16px;
-    max-width: 250px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    max-width: 200px;
+    max-height: 180px;
+}
+
+.button {
+    background-color: #ff7b8c;
     border-radius: 15px;
+    padding: 10px 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffa36d;
 }
 
 #faqs {
